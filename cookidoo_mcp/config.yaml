@@ -1,5 +1,5 @@
 name: Cookidoo MCP
-version: "0.3.1"
+version: "0.3.2"
 slug: cookidoo_mcp
 description: Inoffizieller MCP-Server für Cookidoo, damit Claude TM7-Rezepte in dein Cookidoo-Konto laden kann
 url: https://github.com/PatrickHennigBerlin/ha-addons/tree/main/cookidoo_mcp

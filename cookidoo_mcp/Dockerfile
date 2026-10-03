@@ -22,6 +22,11 @@ RUN sed -i 's/_cookidoo_api\.expires_in/(_cookidoo_api._expires_at - __import__(
     && sed -i 's/self\._api_client\.refresh_token()/self._api_client.refresh()/g' /opt/mcp-cookidoo/cookidoo_service.py \
     && ! grep -n '_cookidoo_api\.expires_in\|await .*refresh_token()' /opt/mcp-cookidoo/server.py /opt/mcp-cookidoo/cookidoo_service.py
 
+# Upstream entfernt mit lstrip alle führenden Ziffern eines Schritts, also auch die Zeit
+# ("3 Min./120°C/Stufe 1" wird zu "Min./..."). Nur echte Aufzählungen wie "1." oder "-" entfernen.
+RUN sed -i 's/step\.strip()\.lstrip("0123456789\.)-• \\t")/re.sub(r"^(\\d+[.)]|[-•])\\s+", "", step.strip())/' /opt/mcp-cookidoo/server.py \
+    && grep -q 're.sub(r"^(\\d+\[.)\]|\[-•\])' /opt/mcp-cookidoo/server.py
+
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt && rm /tmp/requirements.txt
 
