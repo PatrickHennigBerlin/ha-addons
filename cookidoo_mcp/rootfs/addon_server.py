@@ -61,6 +61,34 @@ def build_github_auth():
     )
 
 
+GUIDE_PATH = os.environ.get("ADDON_GUIDE_PATH", "/guide/tm7_guide.md")
+
+server.mcp.instructions = (
+    "Cookidoo-Connector für einen Thermomix TM7. Bevor du ein Rezept für den TM7 "
+    "ausarbeitest, umwandelst oder hochlädst, rufe zuerst das Tool get_tm7_guide auf und "
+    "befolge den Leitfaden darin vollständig. Er enthält die Gerätefakten des TM7, "
+    "Sicherheitsregeln, das Ausgabeformat und das Schrittformat für den Cookidoo-Upload. "
+    "Lade Rezepte erst nach ausdrücklicher Zustimmung des Nutzers hoch."
+)
+
+
+def _read_guide() -> str:
+    with open(GUIDE_PATH, encoding="utf-8") as f:
+        return f.read()
+
+
+@server.mcp.tool()
+def get_tm7_guide() -> str:
+    """Leitfaden für TM7-Rezepte (Markdown). Vor jedem TM7-Rezept zuerst aufrufen und befolgen."""
+    return _read_guide()
+
+
+@server.mcp.resource("guide://tm7", name="TM7-Leitfaden", mime_type="text/markdown")
+def tm7_guide_resource() -> str:
+    """Gerätefakten, Regeln und Upload-Format für TM7-Rezepte."""
+    return _read_guide()
+
+
 if AUTH_MODE == "github":
     server.mcp.auth = build_github_auth()
     mcp_path = "/mcp"

@@ -19,3 +19,9 @@ Nicht von Vorwerk. Nutzt eine undokumentierte Cookidoo-Schnittstelle, die sich j
 - Mit `auth: none` enthält die URL einen zufälligen geheimen Pfad. Wer sie kennt, kann in dein Cookidoo-Konto schreiben.
 - Neue URL erzwingen: Add-on deinstallieren und neu installieren (das löscht den gespeicherten Pfad und die Tailscale-Anmeldung).
 - Der Server lauscht nur auf `127.0.0.1` im Container. Erreichbar ist er ausschließlich über den Tailscale-Funnel dieses Add-ons.
+
+## TM7-Leitfaden
+
+Der Server bringt den TM7-Masterprompt mit (`rootfs/guide/tm7_guide.md`). Jeder Claude-Chat mit diesem Connector bekommt beim Verbinden den Hinweis, zuerst das Tool `get_tm7_guide` aufzurufen, und holt sich den Leitfaden damit selbst. Ein geteiltes Claude-Projekt ist dafür nicht nötig. Änderungen am Leitfaden: Datei im Repo anpassen, Version erhöhen, Add-on aktualisieren.
+
+Die Vorwerk-Gebrauchsanleitung liegt bewusst nicht bei (Urheberrecht, das Repo ist öffentlich). Die nötigen Gerätefakten stehen in eigenen Worten im Leitfaden.
