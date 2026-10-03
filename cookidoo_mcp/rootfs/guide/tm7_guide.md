@@ -18,7 +18,10 @@ Technische Grundlage sind die **Gerätefakten (Abschnitt 2)** und die **Modustab
 ## 2. Gerätefakten TM7 (verbindlich)
 
 **Mixtopf**
-- Max. Füllmenge 2,2 l („max“-Markierung). Füllmarken bei 1 l und 2 l.
+- Max. Füllmenge 2,2 l („max“-Markierung). Füllmarken in 0,5-l-Schritten (Markierungen I = 1 l, II = 2 l).
+- Bis Stufe 2 ist der Mixtopf nicht mit dem Grundgerät verriegelt und kann kippen. Den Mixtopf nie während des Betriebs abnehmen, den Deckel nie mit Gewalt öffnen.
+- Mixtopf leeren: Am Ende eines Schritts entriegelt der Deckel von selbst. Zuerst eingesetztes Zubehör (z. B. Gareinsatz) herausnehmen, dann den Mixtopf abnehmen und leeren, Reste mit dem Spatel vom Rand lösen. Einen gefüllten Mixtopf nie auseinanderbauen.
+- Nur mit sauberem Mixtopfdeckel kochen.
 - Mixtopfdeckel-Kappe bleibt beim Kochen auf dem Deckel. Abnehmen nur vor dem Aufsetzen des Varoma®.
 
 **Geschwindigkeit und Verriegelung**
@@ -27,34 +30,43 @@ Technische Grundlage sind die **Gerätefakten (Abschnitt 2)** und die **Modustab
 - Modus Teig kneten nutzt eine eigene Intervallstufe.
 
 **Waage**
-- Integriert, nutzbar bis Stufe 2, Bereich 1 bis 3000 g. Zutaten bevorzugt direkt in den Mixtopf wiegen lassen.
+- Integriert, nutzbar bis Stufe 2, Bereich 1 bis 3000 g. Auch Abwiegen durch Entnahme ist möglich (bis −3000 g). Zutaten bevorzugt direkt in den Mixtopf wiegen lassen.
 
 **Grenzen von Zubehör und Modi**
 - Öl im Modus Anbraten: max. 100 ml.
 - Gareinsatz: max. 1,4 l Inhalt (ca. 350 g Reis), max. 100 °C.
 - Rühraufsatz: max. Stufe 4, max. 100 °C, max. 2 Stunden. Vor Vorspülen entfernen.
 - Modus Dampfgaren: nur bis Stufe 6.
+- Zubehör muss vor dem Einstellen der Drehzahl richtig eingesetzt sein, nichts darf lose im Mixtopf liegen. Keine Lebensmittel zugeben, die das eingesetzte Zubehör blockieren oder beschädigen können.
+- Spatel: nur kurz im Mixtopf verwenden, nicht im laufenden Betrieb drin lassen. In der Nähe des Mixmessers im Uhrzeigersinn bewegen. Mit dem Messerdreher im Spatelgriff lässt sich das Mixmesser drehen, um z. B. Teig zu lösen.
+- Mixmesser: Häufiges Eiscrushen oder Getreidemahlen nutzt es ab.
 
 **Sicherheitsregeln, die den Ablauf bestimmen**
 - Suppen, Eintöpfe und Marmeladen: max. 100 °C und max. Stufe 2 (unverriegelt). Höhere Stufen nur kurz zum Zerkleinern oder Pürieren, nicht als Kochstufe.
-- Sehr heiße Lebensmittel erst abkühlen lassen, bevor sie in Flüssigkeit im Mixtopf kommen.
-- Anbraten: nie Öl ohne Zutaten erhitzen, nie heißes Fett einfüllen. Mixtopf und Spatel müssen vollständig trocken sein, auch kleine Wasserreste führen zu starkem Spritzen.
+- Heiße Flüssigkeiten nur sehr vorsichtig in den Mixtopf füllen. Sehr heiße Lebensmittel erst abkühlen lassen, bevor sie in Flüssigkeit im Mixtopf kommen.
+- Überkochen: Temperatur senken oder den Vorgang mit dem Schalter stoppen. Hebt sich bei verriegeltem Deckel der Deckel an, sofort stoppen und warten, bis das Gerät von selbst entriegelt.
+- Anbraten: nie Öl ohne Zutaten erhitzen, nie heißes Fett einfüllen, Zutaten nicht verspätet zum heißen Öl geben. Mixtopf und Spatel müssen vollständig trocken sein, auch kleine Wasserreste führen zu starkem Spritzen. Den Anweisungen am Display folgen.
 - Karamell: ausdrücklich auf langsames Abkühlen und Verbrennungsgefahr hinweisen.
-- Öffnungen im Mixtopfdeckel nie abdecken.
+- Öffnungen im Mixtopfdeckel nie abdecken und frei von Gargut halten.
+- Gerät während des Betriebs nicht unbeaufsichtigt lassen; bei hohen Drehzahlen und beim Zerkleinern kann es sich bewegen. Parallelarbeit („Währenddessen“) nur in Reichweite planen.
+- Hygiene: Verderbliches nach der Zubereitung bald kühlen oder essen; Kühlkette einhalten (wichtig bei Slow Cooking, Sous-vide, Fermentieren).
+- Langzeitkochen: auf Wasserqualität achten; bei Bedarf Zusätze gegen Rostbildung (z. B. Zitronensäure) laut Display-Hinweis verwenden.
 
 **Dampfgaren mit Varoma®**
 - Wasser: mindestens 500 ml für 30 Min. Verdampfung ca. 250 ml pro 15 Min. Für längere Garzeiten Wassermenge entsprechend erhöhen, max. 2,2 l beachten. Statt Wasser auch Brühe oder Wasser-Wein-Mischung.
 - Aufbau: Mixtopf mit Flüssigkeit füllen, ggf. Gareinsatz mit Gargut einsetzen, Deckel schließen, **Kappe abnehmen**, Varoma® Behälter auf den umgedrehten Varoma® Deckel stellen und locker füllen, einige Schlitze frei lassen, ggf. Einlegeboden einsetzen und belegen, Varoma® Deckel auflegen, Varoma® aufsetzen.
 - Lange Garzeit unten, kurze Garzeit oben bzw. auf dem Einlegeboden.
-- Danach: Varoma® vorsichtig absetzen und auf einen Teller oder den umgedrehten Varoma® Deckel stellen (tropft heiß). Deckel immer vom Körper weg öffnen.
+- Während des Dampfgarens: Abstand zum Dampf halten, Mixtopfdeckel nicht anfassen. Varoma® muss gerade und sicher auf dem Deckel stehen.
+- Danach: Varoma® vorsichtig absetzen und auf einen Teller oder den umgedrehten Varoma® Deckel stellen (tropft heiß). Mixtopfdeckel und Varoma® Deckel immer vom Körper weg öffnen.
 
 **Gareinsatz**
 - Einsetzen: Einkerbung zum Mixtopfgriff.
-- Herausnehmen nur mit dem Spatelhaken, abstellen (z. B. in der Spüle zum Abtropfen), dann Spatel lösen. Heißen Gareinsatz-Deckel mit der Spatelspitze öffnen.
+- Herausnehmen nur mit dem Spatelhaken (fest eingehakt), abstellen (z. B. in der Spüle zum Abtropfen), dann Spatel lösen, damit der Gareinsatz nicht kippt. Heißen Gareinsatz-Deckel mit der Spatelspitze in der ovalen Öffnung öffnen.
 
 **Reinigen zwischen Schritten**
 - Modus Vorspülen (unter Manuelles Kochen) bei leichter Verschmutzung zwischen zwei Schritten verwenden, statt von Hand zu spülen. Rühraufsatz vorher entfernen.
 - Folgt danach Anbraten oder etwas, das Trockenheit braucht: ausdrücklich „Mixtopf vollständig trocknen“ schreiben.
+- Nach dem Spülen von Hand: Kontaktstifte an der Unterseite des Mixtopfs gut trocknen, bevor er wieder aufs Grundgerät kommt. Zum Ausbauen des Mixmessers den Mixtopf erst abkühlen lassen und nie gefüllt auseinanderbauen.
 
 **Externe Geräte**
 - Den Thermomix® Spatel nicht in heißen Töpfen oder Pfannen verwenden. Für Pfanne/Topf einen eigenen Pfannenwender oder Kochlöffel nennen.
@@ -242,6 +254,8 @@ Backofen, Pfanne oder Topf beibehalten, wenn sie für Ergebnis oder Alltag besse
 - Suppen, Eintöpfe, Marmeladen max. 100 °C und max. Stufe 2?
 - Rühraufsatz: max. Stufe 4, max. 100 °C, max. 2 h, rechtzeitig entfernt?
 - Dampfgaren: genug Wasser für die Garzeit, Kappe abgenommen, Schlitze frei, max. Stufe 6, sicheres Absetzen genannt?
+- Heiße Flüssigkeiten vorsichtig eingefüllt, heißes Gargut vor Zugabe zu Flüssigkeit abgekühlt?
+- Zubehör vor dem Start sicher eingesetzt, Spatel nicht im laufenden Mixtopf?
 - Gareinsatz mit dem Spatelhaken herausgenommen?
 - Für jeden Schritt zuerst ein Modus aus der Modustabelle geprüft; alle Werte in genau diesem Modus wählbar; Menüpfad korrekt?
 - Kein Wert aus Modus und manueller Einstellung vermischt?
