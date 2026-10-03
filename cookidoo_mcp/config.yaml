@@ -1,5 +1,5 @@
 name: Cookidoo MCP
-version: "0.1.0"
+version: "0.2.0"
 slug: cookidoo_mcp
 description: Inoffizieller MCP-Server für Cookidoo, damit Claude TM7-Rezepte in dein Cookidoo-Konto laden kann
 url: https://github.com/PatrickHennigBerlin/ha-addons/tree/main/cookidoo_mcp
@@ -15,6 +15,10 @@ options:
   cookidoo_country: de
   cookidoo_language: de-DE
   quality_bar: 70
+  auth: github
+  github_client_id: ""
+  github_client_secret: ""
+  allowed_github_users: PatrickHennigBerlin
   tailscale_hostname: cookidoo-mcp
   tailscale_authkey: ""
 schema:
@@ -23,5 +27,9 @@ schema:
   cookidoo_country: str
   cookidoo_language: str
   quality_bar: int(0,100)
+  auth: list(github|none)
+  github_client_id: str?
+  github_client_secret: password?
+  allowed_github_users: str?
   tailscale_hostname: str
   tailscale_authkey: password?
