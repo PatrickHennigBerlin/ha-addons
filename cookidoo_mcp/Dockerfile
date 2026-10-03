@@ -15,6 +15,13 @@ RUN sed -i 's/get_localization_options(country="ch", language="de-CH")/get_local
         /opt/mcp-cookidoo/cookidoo_service.py \
     && grep -q 'os.getenv("COOKIDOO_COUNTRY"' /opt/mcp-cookidoo/cookidoo_service.py
 
+# Upstream ist gegen eine ältere cookidoo-api geschrieben. Ab 0.18 heißt die Token-Erneuerung
+# refresh() und die Restlaufzeit steht in _expires_at statt expires_in.
+RUN sed -i 's/_cookidoo_api\.expires_in/(_cookidoo_api._expires_at - __import__("time").time())/; s/_cookidoo_api\.refresh_token()/_cookidoo_api.refresh()/' \
+        /opt/mcp-cookidoo/server.py \
+    && sed -i 's/self\._api_client\.refresh_token()/self._api_client.refresh()/g' /opt/mcp-cookidoo/cookidoo_service.py \
+    && ! grep -n '_cookidoo_api\.expires_in\|await .*refresh_token()' /opt/mcp-cookidoo/server.py /opt/mcp-cookidoo/cookidoo_service.py
+
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt && rm /tmp/requirements.txt
 
